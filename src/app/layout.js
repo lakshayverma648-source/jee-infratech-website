@@ -1,0 +1,33 @@
+import { Oxygen } from "next/font/google";
+import '@/styles/styles.scss';
+import GlobalProvider from "./GlobalProvider";
+import { AnimationProvider } from "@/common/animateContext";
+
+const oxygen = Oxygen({ subsets: ["latin"], weight: ['300', '400', '700'], });
+
+export const metadata = {
+  title: "Jee Infratech Solutions",
+  description: "Jee Infratech Solutions - Infrastructure & Engineering Services",
+   icons: {
+    icon: "/favicon.ico",
+  },};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body className={oxygen.className}>
+        <GlobalProvider>
+          <AnimationProvider key={JSON.stringify(children)}>
+            {children}
+            <div id="nav-full" />
+            <div id="mobile-nav-sidebar" className="mobile-nav-sidebar" />
+            <div id="cart-sidebar" className="cart-sidebar" />
+            <div id="wishlist-sidebar" className="wishlist-sidebar" />
+            <div id="overlay" />
+            <div id="modal" className="modal" />
+          </AnimationProvider>
+        </GlobalProvider>
+      </body>
+    </html>
+  );
+}

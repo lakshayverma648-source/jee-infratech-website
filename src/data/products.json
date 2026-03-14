@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Electrical & Electronics Materials",
+    "image": "/images/products/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Plumbing & Sanitaryware Materials",
+    "image": "/images/products/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Carpentry Tools & Equipment",
+    "image": "/images/products/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Hardware & Painting Materials",
+    "image": "/images/products/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Housekeeping Materials",
+    "image": "/images/products/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Office Equipment Materials",
+    "image": "/images/products/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pantry & Stationery Materials",
+    "image": "/images/products/7.jpg"
+  }
+]

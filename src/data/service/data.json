@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "icon": "icon-wrench-house",
+        "image": "/images/services/2-1.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Fabrication Work",
+        "desc": "We offer reliable fabrication services tailored to commercial and civil requirements. Our work includes custom metal fabrication, structural modifications, and precision installations, ensuring strength, durability, and high-quality finishing for offices, sites, and interiors."
+    },
+    {
+        "id": "2",
+        "icon": "icon-pipe",
+        "image": "/images/services/2-2.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Plumbing Work",
+        "desc": "Our plumbing services cover installation, repair, and maintenance of pipelines, fittings, and sanitary systems. We ensure efficient water flow, leak-free solutions, and long-lasting performance for residential, commercial, and industrial spaces."
+    },
+    {
+        "id": "3",
+        "icon": "icon-paint",
+        "image": "/images/services/2-3.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Painting Work",
+        "desc": "Enhance your interiors and exteriors with our professional painting services. From surface preparation to final coating, we deliver smooth finishes, color consistency, and durable results that improve both appearance and protection."
+    },
+    {
+        "id": "4",
+        "icon": "icon-wrench",
+        "image": "/images/services/2-4.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Civil, Tile, Marble & Cabin Modification Work",
+        "desc": "We provide comprehensive civil works including tiling, marble flooring, structural repairs, and cabin modifications. Our services are designed to improve functionality, layout, and aesthetics with precise execution and quality materials."
+    },
+    {
+        "id": "5",
+        "icon": "icon-pencil",
+        "image": "/images/services/2-5.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Sun Film & Frosted Film Work",
+        "desc": "Improve privacy, reduce heat, and enhance visual appeal with our sun film and frosted film solutions. We offer professional application for glass surfaces in offices and commercial spaces with clean and lasting results."
+    },
+    {
+        "id": "6",
+        "icon": "icon-roof",
+        "image": "/images/services/2-6.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Carpet & Chair Shampooing",
+        "desc": "Maintain hygiene and freshness with our carpet and chair shampooing services. We use effective cleaning methods to remove stains, dirt, and odors, extending the life and appearance of office furnishings."
+    },
+    {
+        "id": "7",
+        "icon": "icon-paint",
+        "image": "/images/services/2-1.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Façade Glass Cleaning",
+        "desc": "Our façade glass cleaning services ensure spotless, streak-free exteriors for commercial buildings. We use safe and efficient techniques to enhance building appearance while maintaining cleanliness and transparency."
+    },
+    {
+        "id": "8",
+        "icon": "icon-pencil",
+        "image": "/images/services/2-2.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Vinyl & Branding Work",
+        "desc": "Strengthen your brand presence with our vinyl and branding services. We provide professional installation of vinyl graphics, signage, and branding elements for offices, showrooms, and commercial properties."
+    },
+    {
+        "id": "9",
+        "icon": "icon-wrench-house",
+        "image": "/images/services/2-3.jpg",
+        "thumbImage": "/images/services/detail/bg_thumb.jpg",
+        "title": "Toughened Glass Work",
+        "desc": "We specialize in toughened glass installation for partitions, doors, and commercial interiors. Our solutions offer safety, durability, and a modern finish, meeting both functional and design requirements."
+    }
+]

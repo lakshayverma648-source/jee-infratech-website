@@ -1,0 +1,65 @@
+[
+   {
+    "title": "Home",
+    "to": "/#!"
+  },
+
+   {
+    "title": "About Us",
+    "to": "/pages/about-us"
+  },
+
+  
+  {
+    "title": "Services",
+    "to": "#!",
+    "subMenu": [
+      {
+        "title": "Fabrication Work",
+        "to": "/services/fabrication-work",
+        "desc": "Enhance your infrastructure with our reliable fabrication services. From custom metal structures to structural modifications, our team delivers precise workmanship, durability, and quality finishing for residential and commercial spaces.",
+        "icon": "icon-wrench-house"
+      },
+      {
+        "title": "Plumbing Work",
+        "to": "/services/plumbing-work",
+        "desc": "Ensure smooth water flow with our professional plumbing services. From pipe installation to leak repairs and maintenance, we provide reliable and long-lasting plumbing solutions for homes and commercial properties.",
+        "icon": "icon-pipe"
+      },
+      {
+        "title": "Painting Work",
+        "to": "/services/painting-work",
+        "desc": "Ensure smooth water flow with our professional plumbing services. From pipe installation to leak repairs and maintenance, we provide reliable and long-lasting plumbing solutions for homes and commercial properties.",
+        "icon": "icon-paint"
+      },
+      {
+        "title": "Civil, Tile, Marble & Cabin Modification Work",
+        "to": "/services/painting-work",
+        "desc": "Upgrade your space with our comprehensive civil and modification services. From tile and marble flooring to structural repairs and cabin modifications, we deliver quality craftsmanship with precision.",
+        "icon": "icon-roof"
+      },
+      {
+        "title": "Sun Film & Frosted Film Work",
+        "to": "/services/sun-film-&-frosted-film-work",
+        "desc": "Upgrade your space with our comprehensive civil and modification services. From tile and marble flooring to structural repairs and cabin modifications, we deliver quality craftsmanship with precision.",
+        "icon": "icon-pencil"
+      },
+      {
+        "title": "Carpet & Chair Shampooing",
+        "to": "/services/carpet-&-chair-shampooing",
+        "desc": "Maintain cleanliness and hygiene with our professional carpet and chair shampooing services. We remove stains, dirt, and odors, restoring freshness and extending the life of your furnishings.",
+        "icon": "icon-roof"
+      }
+    ]
+  },
+  {
+    "title": "Products",
+    "to": "/shop/our-products"
+  },
+ 
+  
+  {
+    "title": "Contact",
+    "to": "/contact"
+  }
+]
