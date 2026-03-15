@@ -21,7 +21,7 @@ export default function LayoutOne(props) {
             </h1>
             <ul className="header_info flex items-center xl:gap-15 gap-5">
               <li>
-                <Link href="tel:+1555678888" className="flex items-center gap-3 group">
+                <Link href="tel:+91 9310125253" className="flex items-center gap-3 group">
                   <span
                     className="flex items-center justify-center sm:w-14 w-12 sm:h-14 h-12 border-2 border-orange duration-400 group-hover:bg-orange group-hover:text-white">
                     <Icon.PhoneCall className="sm:text-3xl text-2xl" />

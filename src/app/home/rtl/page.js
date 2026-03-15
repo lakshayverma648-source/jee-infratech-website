@@ -1,3 +1,5 @@
+"use client"
+
 import LayoutOne from "@/components/Layout/LayoutOne";
 import SliderOne from "@/components/Sections/Slider/SliderOne";
 import CtaOne from "@/components/Sections/Cta/CtaOne";
