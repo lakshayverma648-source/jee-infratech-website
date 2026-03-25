@@ -57,7 +57,10 @@
     "to": "/shop/our-products"
   },
  
-  
+  {
+    "title": "Projects",
+    "to": "/pages/our-projects1"
+  },
   {
     "title": "Contact",
     "to": "/contact"

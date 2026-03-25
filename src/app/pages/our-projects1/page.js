@@ -6,7 +6,7 @@ export default function ourProjectsOne() {
     return (
         <LayoutOne>
             <Breadcrumb image={'/images/breadcrumb/projects.jpg'} nav2={'Projects'} nav2Link={'/pages/our-projects'} title={'Completed Projects'} />
-            <ListProject layout={'xl:grid-cols-4 sm:grid-cols-2'} type={'style-two'} pageLimit={12} />
+            <ListProject layout={'xl:grid-cols-4 sm:grid-cols-2'} type={'style-two'} pageLimit={4} />
         </LayoutOne>
     )
 }

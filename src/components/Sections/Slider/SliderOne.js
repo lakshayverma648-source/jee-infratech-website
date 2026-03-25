@@ -37,12 +37,12 @@ export default function SliderOne() {
                   <Icon.ArrowUpRight className="text-2xl" />
                 </Link>
               </li>
-              {/* <li className="slider_btn_item" style={{"--i": 3}}>
-                <Link href="/contact" className="slider_btn btn btn_icon bg-white">
-                  <span>Get A quote</span>
-                  <Icon.ArrowUpRight className="text-2xl" />
+              <li className="slider_btn_item" style={{"--i": 3}}>
+                <Link href="" className="slider_btn btn btn_icon bg-white">
+                  <span>Download Brochure</span>
+                  <Icon.Download className="text-2xl" />
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </div>
         </SwiperSlide>
@@ -66,6 +66,12 @@ export default function SliderOne() {
                   <Icon.ArrowUpRight className="text-2xl" />
                 </Link>
               </li> */}
+              <li className="slider_btn_item" style={{"--i": 2}}>
+                <Link href="" className="slider_btn btn btn_icon">
+                  <span>Download Brochure</span>
+                  <Icon.Download className="text-2xl" />
+                </Link>
+              </li>
             </ul>
           </div>
         </SwiperSlide>
@@ -89,6 +95,12 @@ export default function SliderOne() {
                   <Icon.ArrowUpRight className="text-2xl" />
                 </Link>
               </li> */}
+              <li className="slider_btn_item" style={{"--i": 3}}>
+                <Link href="" className="slider_btn btn btn_icon bg-white">
+                  <span>Download Brochure</span>
+                  <Icon.Download className="text-2xl" />
+                </Link>
+              </li>
             </ul>
           </div>
         </SwiperSlide>

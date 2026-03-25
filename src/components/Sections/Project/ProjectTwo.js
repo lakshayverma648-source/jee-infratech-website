@@ -19,7 +19,7 @@ const ProjectTwo = ({data, start, limit}) => {
                     </div>
                     <div className="lg:w-1/2 animate animate_left">
                         <p className="section_desc body2 text-variant1">We pride ourselves on delivering consistent, high-quality services that you can depend on. Whether it’s a small fix or a large-scale renovation</p>
-                        <Link href="/pages/our-projects1" className="inline-flex items-center gap-2 mt-4 mx-auto duration-300 hover:text-blue">
+                        <Link href="" className="inline-flex items-center gap-2 mt-4 mx-auto duration-300 hover:text-blue">
                             <span className="has_line line_blue animate_width txt-button">View All Projects</span>
                             <Icon.ArrowUpRight className="text-2xl" />
                         </Link>

@@ -36,7 +36,7 @@ const ListProject = ({ layout, type, pageLimit }) => {
       <h3 className="blind">Projects</h3>
       <div className="container flex flex-col items-center gap-12">
         <div className="menu_tab w-full">
-          <ul className="menu flex items-center justify-center gap-10" role="tablist">
+          {/* <ul className="menu flex items-center justify-center gap-10" role="tablist">
             <li className="tab_item" role="presentation">
               <button
                 className={`tab_btn has_line heading6 capitalize hover:text-orange duration-300 ${categorySelected === "all" ? 'active' : ''}`}
@@ -59,7 +59,7 @@ const ListProject = ({ layout, type, pageLimit }) => {
                 </button>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
         <div className={`projects_list grid ${layout} gap-7.5 gap-y-10`}>
           {projectData !== undefined && projectData.length > 0 ? (
