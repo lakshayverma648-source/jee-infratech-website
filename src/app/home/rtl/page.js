@@ -13,7 +13,7 @@ import PricingOne from "@/components/Sections/Pricing/PricingOne";
 import ChooseUsOne from "@/components/Sections/ChooseUs/ChooseUsOne";
 import BannerOne from "@/components/Sections/Banner/BannerOne";
 import ProjectOne from "@/components/Sections/Project/ProjectOne";
-import ClientsOne from "@/components/Sections/Clients/ClientsOne";
+// import ClientsOne from "@/components/Sections/Clients/ClientsOne";
 import teamData from "@/data/team/data.json";
 import TeamOne from "@/components/Sections/Team/TeamOne";
 import blogData from "@/data/blog/data.json";
