@@ -34,7 +34,7 @@ const CounterOne = () => {
                         Delivering Quality Infrastructure & Civil Solutions
                     </h3>
                     <p className="text-white text-lg max-w-3xl mx-auto leading-relaxed">
-                        Jee Infra Tech Solutions is committed to providing reliable,
+                        Jee Infratech Solutions is committed to providing reliable,
                         professional, and high-quality civil repair and maintenance
                         services across Delhi, Noida & Gurugram.
                     </p>

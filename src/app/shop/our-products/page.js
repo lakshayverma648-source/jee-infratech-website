@@ -17,7 +17,7 @@ export default function ourProducts() {
                 <div className="container">
                     <div className="shop_product w-full">
                         <div className="product_list grid lg:grid-cols-3 grid-cols-2 sm:gap-7.5 gap-5 gap-y-10">
-                            {productData.slice(0, 8).map((item, index) => (
+                            {productData.slice(0, 19).map((item, index) => (
                                 <Product data={item} key={index} />
                             ))}
                         </div>
