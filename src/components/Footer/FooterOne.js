@@ -104,7 +104,7 @@ export default function FooterOne({ className, color }) {
                 </li>
                 <li>
                   <Link
-                    href="/services"
+                    href="/pages/our-services"
                     className="footer_nav_link has_line line_white capitalize text-variant2 hover:text-white duration-300"
                   >
                     Services
@@ -112,7 +112,7 @@ export default function FooterOne({ className, color }) {
                 </li>
                 <li>
                   <Link
-                    href="/pages/our-products"
+                    href="/pages/shop/our-products"
                     className="footer_nav_link has_line line_white capitalize text-variant2 hover:text-white duration-300"
                   >
                     Products
