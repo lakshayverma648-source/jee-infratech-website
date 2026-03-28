@@ -22,16 +22,18 @@ export default function SliderOne() {
           delay: 5000,
         }}
       >
+
+
         <SwiperSlide>
           <div className="slider_bg absolute top-0 left-0 w-full h-full pointer-events-none">
             <Image width={2000} height={2000} src="/images/slider/slider1_1.jpg" alt="Fast & Professional Home Repairs" className="h-full object-cover" />
           </div>
           <div className="container flex flex-col justify-center relative h-full max-sm:-mt-10">
             <h2 className="section_tit_two lg:w-2/3 text-white heading1">Fast & Professional Home Repairs</h2>
-            <p className="section_desc mt-4 text-white body2" style={{"--i": 1}}>Our expert is here to help with any
+            <p className="section_desc mt-4 text-white body2" style={{ "--i": 1 }}>Our expert is here to help with any
               project, big or small.</p>
             <ul className="slider_btn_group flex flex-wrap gap-4 mt-9">
-              <li className="slider_btn_item" style={{"--i": 2}}>
+              <li className="slider_btn_item" style={{ "--i": 2 }}>
                 <Link href="/pages/our-services" className="slider_btn btn btn_icon">
                   <span>Book a Service</span>
                   <Icon.ArrowUpRight className="text-2xl" />
@@ -46,15 +48,50 @@ export default function SliderOne() {
             </ul>
           </div>
         </SwiperSlide>
+
+
+        <SwiperSlide>
+          <div className="slider_bg absolute top-0 left-0 w-full h-full pointer-events-none">
+            <Image width={2000} height={2000} src="/images/slider/slider1_4.jpg" alt="Comprehensive Maintenance Services" className="h-full object-cover" />
+          </div>
+          <div className="container flex flex-col justify-center relative h-full max-sm:-mt-10">
+            <h2 className="section_tit_two lg:w-2/3 text-black heading1">Comprehensive Maintenance Services</h2>
+            <p className="section_desc mt-4 text-black body2" style={{ "--i": 1 }}>From civil and fabrication work to glass and maintenance services, we deliver efficient solutions you can trust.</p>
+            <ul className="slider_btn_group flex flex-wrap gap-4 mt-9">
+              <li className="slider_btn_item" style={{ "--i": 2 }}>
+                <Link href="/pages/our-services" className="slider_btn btn btn_icon">
+                  <span>Book a Service</span>
+                  <Icon.ArrowUpRight className="text-2xl" />
+                </Link>
+              </li>
+              {/* <li className="slider_btn_item" style={{"--i": 3}}>
+                <Link href="/contact" className="slider_btn btn btn_icon bg-white">
+                  <span>Get A quote</span>
+                  <Icon.ArrowUpRight className="text-2xl" />
+                </Link>
+              </li> */}
+              {/* <li className="slider_btn_item" style={{"--i": 3}}>
+                <Link href="" className="slider_btn btn btn_icon bg-white">
+                  <span>Download Brochure</span>
+                  <Icon.Download className="text-2xl" />
+                </Link>
+              </li> */}
+            </ul>
+          </div>
+        </SwiperSlide>
+
+
+
+
         <SwiperSlide>
           <div className="slider_bg absolute top-0 left-0 w-full h-full pointer-events-none">
             <Image width={2000} height={2000} src="/images/slider/slider1_2.jpg" alt="Expert Renovation & Improvement Services" className="h-full object-cover" />
           </div>
           <div className="container flex flex-col justify-center relative h-full max-sm:-mt-10">
             <h2 className="section_tit_two lg:w-2/3 text-white heading1">Expert Renovation & Improvement Services</h2>
-            <p className="section_desc mt-4 text-white body2" style={{"--i": 1}}>Skilled professionals delivering quality workmanship for all your civil and maintenance needs.</p>
+            <p className="section_desc mt-4 text-white body2" style={{ "--i": 1 }}>Skilled professionals delivering quality workmanship for all your civil and maintenance needs.</p>
             <ul className="slider_btn_group flex flex-wrap gap-4 mt-9">
-              <li className="slider_btn_item" style={{"--i": 2}}>
+              <li className="slider_btn_item" style={{ "--i": 2 }}>
                 <Link href="/contact" className="slider_btn btn btn_icon bg-white">
                   <span>Get A quote</span>
                   <Icon.ArrowUpRight className="text-2xl" />
@@ -75,35 +112,13 @@ export default function SliderOne() {
             </ul>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="slider_bg absolute top-0 left-0 w-full h-full pointer-events-none">
-            <Image width={2000} height={2000} src="/images/slider/slider1_3.jpg" alt="Comprehensive Maintenance Services" className="h-full object-cover" />
-          </div>
-          <div className="container flex flex-col justify-center relative h-full max-sm:-mt-10">
-            <h2 className="section_tit_two lg:w-2/3 text-white heading1">Comprehensive Maintenance Services</h2>
-            <p className="section_desc mt-4 text-white body2" style={{"--i": 1}}>From civil and fabrication work to glass and maintenance services, we deliver efficient solutions you can trust.</p>
-            <ul className="slider_btn_group flex flex-wrap gap-4 mt-9">
-              <li className="slider_btn_item" style={{"--i": 2}}>
-                <Link href="/pages/our-services" className="slider_btn btn btn_icon">
-                  <span>Book a Service</span>
-                  <Icon.ArrowUpRight className="text-2xl" />
-                </Link>
-              </li>
-              {/* <li className="slider_btn_item" style={{"--i": 3}}>
-                <Link href="/contact" className="slider_btn btn btn_icon bg-white">
-                  <span>Get A quote</span>
-                  <Icon.ArrowUpRight className="text-2xl" />
-                </Link>
-              </li> */}
-              {/* <li className="slider_btn_item" style={{"--i": 3}}>
-                <Link href="" className="slider_btn btn btn_icon bg-white">
-                  <span>Download Brochure</span>
-                  <Icon.Download className="text-2xl" />
-                </Link>
-              </li> */}
-            </ul>
-          </div>
-        </SwiperSlide>
+
+
+
+
+
+
+
       </Swiper>
     </section>
   );
