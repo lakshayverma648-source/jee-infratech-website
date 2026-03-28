@@ -29,7 +29,7 @@ export default function contact() {
 
       const data = await response.json()
 
-      if (response.ok && data.success === "true") {
+      if (response.ok && data.success) {
         setResult("Your message has been sent successfully.")
         form.reset()
       } else {
