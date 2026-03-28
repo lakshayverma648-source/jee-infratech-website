@@ -11,29 +11,34 @@ export default function contact() {
     event.preventDefault()
     setResult("Sending...")
 
-    const formData = new FormData(event.target)
-    formData.append("access_key", "d4b147da-fbcf-4f59-b071-d6dd9f567e14")
+    const form = event.target
+    const formData = new FormData(form)
 
-    const object = Object.fromEntries(formData)
-    const json = JSON.stringify(object)
+    formData.append("_subject", "New Contact Page Inquiry")
+    formData.append("_template", "table")
+    formData.append("_captcha", "false")
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    })
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/purchase@jeeinfratechsolutions.com", {
+        method: "POST",
+        body: formData,
+        headers: {
+          Accept: "application/json"
+        }
+      })
 
-    const data = await response.json()
+      const data = await response.json()
 
-    if (data.success) {
-      setResult("Your message has been sent successfully.")
-      event.target.reset()
-    } else {
-      console.log("Error", data)
-      setResult("Something went wrong. Please try again.")
+      if (response.ok && data.success === "true") {
+        setResult("Your message has been sent successfully.")
+        form.reset()
+      } else {
+        setResult(data.message || "Something went wrong. Please try again.")
+        console.log("FormSubmit Error:", data)
+      }
+    } catch (error) {
+      console.log("Network Error:", error)
+      setResult("Network error. Please try again.")
     }
   }
 
@@ -87,10 +92,11 @@ export default function contact() {
             <h4 className="heading4">Get a Free Consultation</h4>
             <p className="mt-3 text-variant1">Use the form below to get in touch with the team</p>
 
-            <form onSubmit={handleSubmit} className="form grid sm:grid-cols-2 grid-cols-1 gap-5 w-full mt-6">
-              <input type="hidden" name="subject" value="New Contact Page Inquiry" />
-              <input type="hidden" name="from_name" value="Jee Infra Tech Solutions Website" />
-
+            <form
+              onSubmit={handleSubmit}
+              encType="multipart/form-data"
+              className="form grid sm:grid-cols-2 grid-cols-1 gap-5 w-full mt-6"
+            >
               <div className="form_group w-full">
                 <input
                   type="text"
@@ -111,9 +117,19 @@ export default function contact() {
                 />
               </div>
 
+              <div className="form_group sm:col-span-2 w-full">
+                <input
+                  type="tel"
+                  name="phone"
+                  className="form_input w-full py-3 px-4 border border-outline bg-white"
+                  placeholder="Contact Number *"
+                  required
+                />
+              </div>
+
               <div className="form_group form_select col-span-full w-full">
                 <select
-                  name="services"
+                  name="service"
                   className="w-full py-3 px-4 border border-outline bg-white"
                   defaultValue=""
                   required
@@ -142,6 +158,18 @@ export default function contact() {
                   placeholder="Write your message here *"
                   required
                 ></textarea>
+              </div>
+
+              <div className="form_group sm:col-span-2 w-full">
+                <label className="block mb-2 text-sm text-variant1">
+                  Upload Attachment
+                </label>
+                <input
+                  type="file"
+                  name="attachment"
+                  className="w-full py-3 px-4 border border-outline bg-white"
+                  accept=".pdf,.jpg,.jpeg,.png,.doc,.docx,.xls,.xlsx"
+                />
               </div>
 
               <div className="form_group mt-2 w-full">
