@@ -21,7 +21,7 @@ export default function FooterOne({ className, color }) {
         <div className="footer_info md:w-1/4 w-full">
           <h1>
             <Link href="/" className="footer_logo flex items-center gap-3">
-              <Image width={2000} height={2000} src={`/images/logo_${color}.png`} className="flex-shrink-0 w-10" alt="logo" />
+              <Image width={2000} height={2000} src={`/images/logo_white.png`} className="flex-shrink-0 w-10" alt="logo" />
               <strong className="heading6">Jee Infratech Solutions</strong>
             </Link>
           </h1>
